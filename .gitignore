@@ -1,2 +1,6 @@
 # Don't track this files
 *.env
+tmp/uploads/*
+
+# Don't track this folders
+
