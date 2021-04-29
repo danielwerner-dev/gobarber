@@ -1,0 +1,65 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "09:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: "@sentry/node"
+    versions:
+    - 6.0.2
+    - 6.0.3
+    - 6.0.4
+    - 6.1.0
+    - 6.2.0
+    - 6.2.1
+    - 6.2.2
+    - 6.2.3
+    - 6.2.4
+    - 6.2.5
+    - 6.3.0
+    - 6.3.1
+  - dependency-name: mongoose
+    versions:
+    - 5.11.14
+    - 5.11.15
+    - 5.11.16
+    - 5.11.17
+    - 5.11.18
+    - 5.11.19
+    - 5.12.0
+    - 5.12.1
+    - 5.12.2
+    - 5.12.3
+    - 5.12.5
+  - dependency-name: date-fns
+    versions:
+    - 2.16.1
+    - 2.17.0
+    - 2.18.0
+    - 2.19.0
+    - 2.20.0
+    - 2.20.1
+    - 2.20.2
+    - 2.20.3
+  - dependency-name: y18n
+    versions:
+    - 4.0.1
+    - 4.0.2
+  - dependency-name: nodemailer
+    versions:
+    - 6.4.17
+    - 6.4.18
+    - 6.5.0
+  - dependency-name: express-handlebars
+    versions:
+    - 5.2.0
+    - 5.2.1
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
+  - dependency-name: handlebars
+    versions:
+    - 4.7.6
